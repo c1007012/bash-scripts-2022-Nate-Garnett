@@ -25,6 +25,8 @@ then
     if [ "$CHOICE" = "$OPT3" ]
     then
       sudo apt install mariadb-server mariadb-client
-  fi
+      else
+        echo "You have decided to not install Mariadb"
+      fi
 
 
