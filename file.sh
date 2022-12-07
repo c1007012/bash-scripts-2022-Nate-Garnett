@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -p "Please enter a usernames: "
+echo -p "Please enter a username: "
 read username
  
 sudo adduser $username                                         
